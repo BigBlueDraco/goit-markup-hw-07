@@ -301,7 +301,7 @@ body {
   fill: #212121;
 }
 
-.modal-close-btn:focus .icon .modal-close-btn:hover .icon {
+.modal-close-btn:focus .icon, .modal-close-btn:hover .icon {
   fill: #2196f3;
 }
 
