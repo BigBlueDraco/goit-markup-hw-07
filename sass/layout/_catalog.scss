@@ -49,19 +49,7 @@
     margin: 0;
     margin-bottom: 4px;
   }
-  
-  .catalog-item:hover .catalog-overlay,
-  .catalog-item:focus .catalog-overlay {
-    transform: translateY(0);
-    background-color: rgba(33, 150, 243, 0.9);
-    opacity: 1;
-  }
-  
-  .catalog-tumb {
-    position: relative;
-    overflow: hidden;
-  }
-  
+
   .catalog-overlay {
     position: absolute;
     bottom: 0;
@@ -83,7 +71,21 @@
       bacground-color $delay cubic-bezier(0.4, 0, 0.2, 1);
   
     opacity: 0;
+  }  
+
+.catalog-list__item:hover .catalog-overlay,
+.catalog-list__item:focus .catalog-overlay {
+    transform: translateY(0);
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 1;
   }
+  
+  .catalog-tumb {
+    position: relative;
+    overflow: hidden;
+  }
+  
+
 
   .catalog-content {
     padding: 20px 24px;
